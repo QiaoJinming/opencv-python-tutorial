@@ -139,7 +139,7 @@ opencv是一个基于BSD许可（开源）发行的跨平台计算机视觉和�
   cv.drawChessboardCorners(eh_findChessboardCorners(img))
   ```
 
-  <img src=".\pics\eh.jpg" style="zoom:30%;" />
+  <img src=".\pics\eh.jpg" width = "600" height = "800"  style="zoom:30%;" />
 
 - 本项目支持cv算法的可视化展示，通过可视化界面调节参数，可以动态的观测到该算法所变化参数的实际效果，界面使用pyqt进行构建，因此需要PySide2库的支持，例如：
 
@@ -150,7 +150,7 @@ opencv是一个基于BSD许可（开源）发行的跨平台计算机视觉和�
   show(cv.threshold(src, thresh, maxval, type))
   ```
 
-  <img src=".\pics\show.jpg" style="zoom:50%;" />
+  <img src=".\pics\show.jpg" width = "700" height = "400" style="zoom:50%;" />
 
 
 
